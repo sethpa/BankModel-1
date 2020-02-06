@@ -19,6 +19,6 @@ public class Bank {
 	}
 	
 	public String toString()	{
-		return(companyName);
+		return("Company Name: " + companyName);
 	}
 }

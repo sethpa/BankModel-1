@@ -15,5 +15,8 @@ public class Online extends Bank {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+	public String toString() {
+		return "Company Name: " + super.toString() + "\nURL: " + url;
+	}
 
 }

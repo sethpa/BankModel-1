@@ -18,7 +18,7 @@ public class BrickandMortar extends Bank {
 	}
 	
 	public String toString()	{
-		return("");
+		return("Company Name: " + super.toString() + "\nAddress: " + address);
 	}
 
 }
