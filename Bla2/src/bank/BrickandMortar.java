@@ -10,7 +10,6 @@ public class BrickandMortar extends Bank {
 
 	public String getAddress() {
 		return address;
-		
 	}
 
 	public void setAddress(String address) {
